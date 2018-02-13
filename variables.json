@@ -2,30 +2,17 @@
   "date": "February 13, 2018",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "cgreene",
+      "name": "Casey S. Greene",
+      "initials": "CSG",
+      "orcid": "0000-0001-8713-9213",
+      "twitter": "greenescientist",
+      "email": "greenescientist@gmail.com",
       "affiliations": [
-        "Department of Something, University of Whatever"
+        "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+        "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation"
       ],
-      "funders": "Grant XXXXXXXX",
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
+      "funders": "Grant TBD",
       "affiliation_numbers": [
         1,
         2
@@ -34,11 +21,11 @@
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation",
       "affiliation_number": 2
     }
   ],
@@ -46,12 +33,12 @@
     "repo_slug": "greenelab/czi-hca-report",
     "repo_owner": "greenelab",
     "repo_name": "czi-hca-report",
-    "commit": "5c8674453244b9799b3a3c317de42e3a87e3dbe3"
+    "commit": "8053e73d8503bd623c42495a63db0f99d36746d7"
   },
   "manuscript_stats": {
     "reference_counts": {
       "total": 0
     },
-    "word_count": 206
+    "word_count": 290
   }
 }
