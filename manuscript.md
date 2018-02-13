@@ -20,7 +20,7 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@8053e73](https://github.com/greenelab/czi-hca-report/tree/8053e73d8503bd623c42495a63db0f99d36746d7)
+from [greenelab/czi-hca-report@7fe0d07](https://github.com/greenelab/czi-hca-report/tree/7fe0d0716e214b1bee43d1a6074351dbf53dacb0)
 on February 13, 2018.
 </em></small>
 
