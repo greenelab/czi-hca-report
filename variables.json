@@ -1,5 +1,5 @@
 {
-  "date": "February 6, 2018",
+  "date": "February 13, 2018",
   "authors": [
     {
       "github": "johndoe",
@@ -43,16 +43,15 @@
     }
   ],
   "ci_source": {
-    "repo_slug": "greenelab/manubot-rootstock",
+    "repo_slug": "greenelab/czi-hca-report",
     "repo_owner": "greenelab",
-    "repo_name": "manubot-rootstock",
-    "commit": "310dd078c4c60bedd63442f93906f26a4ea25a4b"
+    "repo_name": "czi-hca-report",
+    "commit": "5c8674453244b9799b3a3c317de42e3a87e3dbe3"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 2,
-      "total": 2
+      "total": 0
     },
-    "word_count": 323
+    "word_count": 206
   }
 }

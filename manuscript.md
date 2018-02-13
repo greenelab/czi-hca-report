@@ -2,7 +2,7 @@
 author-meta:
 - John Doe
 - Jane Roe
-date-meta: '2018-02-06'
+date-meta: '2018-02-13'
 keywords:
 - markdown
 - publishing
@@ -18,8 +18,8 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/manubot-rootstock@310dd07](https://github.com/greenelab/manubot-rootstock/tree/310dd078c4c60bedd63442f93906f26a4ea25a4b)
-on February 6, 2018.
+from [greenelab/czi-hca-report@5c86744](https://github.com/greenelab/czi-hca-report/tree/5c8674453244b9799b3a3c317de42e3a87e3dbe3)
+on February 13, 2018.
 </em></small>
 
 ## Authors
@@ -52,24 +52,6 @@ on February 6, 2018.
 ## Abstract {.page_break_before}
 
 
-
-
-## Manubot Rootstock Information
-
-**Note: Manubot instances should delete this file.**
-
-The Manubot is a system for automating scholarly publishing.
-Content is written in [Pandoc Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown) source files.
-See [`USAGE.md`](https://github.com/greenelab/manubot-rootstock/blob/master/USAGE.md) for more information on how to use the Manubot.
-
-The Manubot project began with the [Deep Review](https://github.com/greenelab/deep-review), where it was used to compose a highly-collaborative review article [@tJKvnIaZ].
-Other manuscripts that were created with Manubot include:
-
-+ The Sci-Hub Coverage Study ([GitHub](https://github.com/greenelab/scihub-manuscript), [HTML manuscript](https://greenelab.github.io/scihub-manuscript/))
-+ Michael Zietz's Report for the Vagelos Scholars Program ([GitHub](https://github.com/zietzm/Vagelos2017), [HTML manuscript](https://zietzm.github.io/Vagelos2017/)) [@15nwuvjrA]
-
-If you notice a problem with Manubot, it's best to submit an upstream fix to the appropriate repository:
-[`greenelab/manubot-rootstock`](https://github.com/greenelab/manubot-rootstock) for the git repository stub or [`greenelab/manubot`](https://github.com/greenelab/manubot) for the Python package.
 
 
 ## References {.page_break_before}
