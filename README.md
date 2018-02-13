@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Progress Report: Genome-wide hypothesis generation for single-cell expression via latent spaces of deep neural networks
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,14 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+We wrote an application for the [Chan Zuckerberg Initiative's Collaborative Computational Tools RFA](https://chanzuckerberg.com/wp-content/uploads/2017/03/RFA-Computational-Tools.pdf).
+Our application was recommended for funding.
+We are writing our progress report as we go.
+This repository contains the report.
+Please feel free to file a [GitHub Issue](https://github.com/greenelab/czi-hca-report/issues) to ask a question.
+Some elements of this report are expected to also be written up via a published manuscript.
+In the event that we write a manuscript, we will begin from this report.
+Authorship will be determined in accordance with [ICMJE guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
 
 ## Manubot
 
