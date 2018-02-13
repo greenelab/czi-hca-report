@@ -1,6 +1,6 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/greenelab/manubot-rootstock/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/manubot-rootstock/.
+The [`gh-pages`](https://github.com/greenelab/czi-hca-report/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/czi-hca-report/.
 
 ## Files
 
@@ -15,4 +15,4 @@ This directory contains the following files, which are mostly ignored on the `ma
 ## Source
 
 The manuscripts in this directory were built from
-[`310dd078c4c60bedd63442f93906f26a4ea25a4b`](https://github.com/greenelab/manubot-rootstock/commit/310dd078c4c60bedd63442f93906f26a4ea25a4b).
+[`5c8674453244b9799b3a3c317de42e3a87e3dbe3`](https://github.com/greenelab/czi-hca-report/commit/5c8674453244b9799b3a3c317de42e3a87e3dbe3).
