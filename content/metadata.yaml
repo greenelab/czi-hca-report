@@ -1,27 +1,21 @@
 ---
-title: "Manubot Rootstock: Manuscript Title"
+title: "Progress Report: Genome-wide hypothesis generation for single-cell expression via latent spaces of deep neural networks"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - single cell
+  - latent space
+  - variational autoencoder
+  - generative adversarial networls
+  - deep learning
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
+    funders: Grant TBD
