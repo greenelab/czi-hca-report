@@ -1,5 +1,5 @@
 {
-  "date": "February 13, 2018",
+  "date": "February 14, 2018",
   "authors": [
     {
       "github": "cgreene",
@@ -33,12 +33,15 @@
     "repo_slug": "greenelab/czi-hca-report",
     "repo_owner": "greenelab",
     "repo_name": "czi-hca-report",
-    "commit": "7fe0d0716e214b1bee43d1a6074351dbf53dacb0"
+    "commit": "97c105d11e2b60d0013219856ec09bf1666afa1b"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "total": 0
+      "arxiv": 5,
+      "doi": 11,
+      "url": 2,
+      "total": 18
     },
-    "word_count": 290
+    "word_count": 1489
   }
 }
