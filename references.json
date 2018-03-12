@@ -1781,6 +1781,133 @@
         [
           2018,
           2,
+          23
+        ]
+      ],
+      "date-time": "2018-02-23T12:02:22Z",
+      "timestamp": 1519387342839
+    },
+    "reference-count": 47,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1186/s13059-017-1305-0",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2017-09-12T11:03:11Z",
+      "timestamp": 1505214191000
+    },
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": "Splatter: simulation of single-cell RNA sequencing data",
+    "prefix": "10.1186",
+    "volume": "18",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-7744-8565",
+        "authenticated-orcid": false,
+        "given": "Luke",
+        "family": "Zappia",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1711-7454",
+        "authenticated-orcid": false,
+        "given": "Belinda",
+        "family": "Phipson",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9788-5690",
+        "authenticated-orcid": false,
+        "given": "Alicia",
+        "family": "Oshlack",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ]
+    },
+    "container-title": "Genome Biology",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/s13059-017-1305-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2017-09-12T11:03:32Z",
+      "timestamp": 1505214212000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ]
+    },
+    "references-count": 47,
+    "alternative-id": [
+      "1305"
+    ],
+    "URL": "https://doi.org/10.1186/s13059-017-1305-0",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Genome Biol",
+    "article-number": "174",
+    "short_url": "https://doi.org/gc3h3g",
+    "id": "117yS2Kkv"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          2,
           12
         ]
       ],
