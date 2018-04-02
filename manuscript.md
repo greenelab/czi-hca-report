@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Casey S. Greene
-date-meta: '2018-03-12'
+date-meta: '2018-04-02'
 keywords:
 - single cell
 - latent space
@@ -20,8 +20,8 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@f4263d2](https://github.com/greenelab/czi-hca-report/tree/f4263d283d80100a4e86624066d5efedfdd0b9c7)
-on March 12, 2018.
+from [greenelab/czi-hca-report@7ef133a](https://github.com/greenelab/czi-hca-report/tree/7ef133a42607cb706ff3493f3bf62258ec8f638b)
+on April 2, 2018.
 </em></small>
 
 ## Authors
