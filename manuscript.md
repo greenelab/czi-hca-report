@@ -1,7 +1,8 @@
 ---
 author-meta:
+- Qiwen Hu
 - Casey S. Greene
-date-meta: '2018-04-02'
+date-meta: '2018-04-24'
 keywords:
 - single cell
 - latent space
@@ -20,13 +21,24 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@7ef133a](https://github.com/greenelab/czi-hca-report/tree/7ef133a42607cb706ff3493f3bf62258ec8f638b)
-on April 2, 2018.
+from [greenelab/czi-hca-report@3c42d04](https://github.com/greenelab/czi-hca-report/tree/3c42d0467c2dbea44b50b7b2829bc59d77902363)
+on April 24, 2018.
 </em></small>
 
 ## Authors
 
 
+
++ **Qiwen Hu**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [None](https://orcid.org/None)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [huqiwen0313](https://github.com/huqiwen0313)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [qiwen_hu](https://twitter.com/qiwen_hu)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
 
 + **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){height="13px" width="13px"}

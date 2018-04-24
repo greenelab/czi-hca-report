@@ -1,6 +1,20 @@
 {
-  "date": "April 2, 2018",
+  "date": "April 24, 2018",
   "authors": [
+    {
+      "github": "huqiwen0313",
+      "name": "Qiwen Hu",
+      "initials": "QH",
+      "orcid": null,
+      "twitter": "qiwen_hu",
+      "email": "huqiwen0313@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
+      ],
+      "affiliation_numbers": [
+        1
+      ]
+    },
     {
       "github": "cgreene",
       "name": "Casey S. Greene",
@@ -33,7 +47,7 @@
     "repo_slug": "greenelab/czi-hca-report",
     "repo_owner": "greenelab",
     "repo_name": "czi-hca-report",
-    "commit": "7ef133a42607cb706ff3493f3bf62258ec8f638b"
+    "commit": "3c42d0467c2dbea44b50b7b2829bc59d77902363"
   },
   "manuscript_stats": {
     "reference_counts": {
