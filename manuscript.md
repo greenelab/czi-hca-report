@@ -2,7 +2,7 @@
 author-meta:
 - Qiwen Hu
 - Casey S. Greene
-date-meta: '2018-06-12'
+date-meta: '2018-06-15'
 keywords:
 - single cell
 - latent space
@@ -21,8 +21,8 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@3a02125](https://github.com/greenelab/czi-hca-report/tree/3a02125a6ff0278447a0026e8762832307591186)
-on June 12, 2018.
+from [greenelab/czi-hca-report@197a234](https://github.com/greenelab/czi-hca-report/tree/197a2340a8037c86f57ea5399863be7c7be61091)
+on June 15, 2018.
 </em></small>
 
 ## Authors
@@ -183,7 +183,7 @@ To evaluate the performance of VAE and the other dimension reduction approaches,
 
 ##### 2. 2-dimensional projection of real single cell data based on differnt structure of VAE: VAE_depth3 (3 hidden layer), VAE_depth2 (2 hidden layer), VAE_depth1 (1 hidden layer), t-SNE, ZIFA, UMAP and PCA
 
-We tested the performance of VAE and another 4 methods (t-SNE [@Mij5zdMT], ZIFA [@13Q8I0ueY], UMAP [@OMsYvCFP] and PCA [@1B69QdM07]) on these real datasets with different number of cells, genes and cell types. 
+We tested the performance of VAE and another 4 methods (t-SNE [@Mij5zdMT], ZIFA [@13Q8I0ueY], UMAP [@157h5hA34 @OMsYvCFP] and PCA [@1B69QdM07]) on these real datasets with different number of cells, genes and cell types. 
 Figure 4 shows the 2-D visulization of the real single cell datasets. 
 PCA and ZIFA generally perform better when number of cells is small, but with the increase of number of cells, VAE better differentiates different cell types.
 Increase of VAE depth does not significantly change the performance for real single cell datasets, but for the simulated data we analyzed above, VAE with higher depth is more resistant to noise and performs better with small number of cells.

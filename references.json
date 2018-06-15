@@ -179,6 +179,34 @@
     "id": "zBCcUQOM"
   },
   {
+    "arxiv_id": "1802.03426v1",
+    "version": "1",
+    "URL": "https://arxiv.org/abs/1802.03426v1",
+    "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension\n  Reduction",
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          "02",
+          "09"
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Leland McInnes"
+      },
+      {
+        "literal": "John Healy"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "UMAP (Uniform Manifold Approximation and Projection) is a novel manifold\nlearning technique for dimension reduction. UMAP is constructed from a\ntheoretical framework based in Riemannian geometry and algebraic topology. The\nresult is a practical scalable algorithm that applies to real world data. The\nUMAP algorithm is competitive with t-SNE for visualization quality, and\narguably preserves more of the global structure with superior run time\nperformance. Furthermore, UMAP as described has no computational restrictions\non embedding dimension, making it viable as a general purpose dimension\nreduction technique for machine learning.",
+    "type": "report",
+    "id": "157h5hA34"
+  },
+  {
     "indexed": {
       "date-parts": [
         [
