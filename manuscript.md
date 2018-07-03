@@ -2,7 +2,7 @@
 author-meta:
 - Qiwen Hu
 - Casey S. Greene
-date-meta: '2018-06-15'
+date-meta: '2018-07-03'
 keywords:
 - single cell
 - latent space
@@ -21,8 +21,8 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@197a234](https://github.com/greenelab/czi-hca-report/tree/197a2340a8037c86f57ea5399863be7c7be61091)
-on June 15, 2018.
+from [greenelab/czi-hca-report@45e6f01](https://github.com/greenelab/czi-hca-report/tree/45e6f01724e533b23848bc7e2a4ec82cb65261b5)
+on July 3, 2018.
 </em></small>
 
 ## Authors
@@ -221,6 +221,22 @@ The performance of VAE is generally better than the other approaches for majorit
 ![](images/real.data.knn.png)
 
 Figure 7: Performance comparison VAE, t-SNE, ZIFA, UMAP and PCA based on k-nearest neighbor algorithm.
+
+#### Data augmentation
+We performed data augmentation based on HCA melanoma dataset. 
+We down sampling the melanoma dataset to test the method stability. 
+The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Salmon [@vrqQcFyx @12KZMHMQl] was used to do the transcript abundance quantification and we resampled the reads by 2x, 5x and 10x times to capture the uncertainty in the data. 
+Figure 7 and 8 show the performance of data augmentation under different conditions. 
+K-means and Knn based performance both indicate data augmentation works well in small number of samples (100 and 500 cells), but does not contribute too much in a large sample size (2000).
+
+![](images/kmeans.data.augmentation.png)
+
+Figure 7: K-means based performance for data augmentation on HCA melanoma dataset. The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Reads were resampled by 2x, 5x and 10x times to capture the uncertainty in the data.
+
+![](images/knn.data.augmentation.png)
+
+Figure 8: KNN based performance for data augmentation on HCA melanoma dataset. The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Reads were resampled by 2x, 5x and 10x times to capture the uncertainty in the data.
+
 
 
 
