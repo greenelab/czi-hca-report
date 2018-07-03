@@ -47,7 +47,7 @@
     "repo_slug": "greenelab/czi-hca-report",
     "repo_owner": "greenelab",
     "repo_name": "czi-hca-report",
-    "commit": "45e6f01724e533b23848bc7e2a4ec82cb65261b5"
+    "commit": "455ee042e6760a06daeb0c228bcf56ac41f8d490"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -56,6 +56,6 @@
       "url": 2,
       "total": 30
     },
-    "word_count": 2674
+    "word_count": 2486
   }
 }
