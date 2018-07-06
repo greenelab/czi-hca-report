@@ -15,4 +15,4 @@ This directory contains the following files, which are mostly ignored on the `ma
 ## Source
 
 The manuscripts in this directory were built from
-[`455ee042e6760a06daeb0c228bcf56ac41f8d490`](https://github.com/greenelab/czi-hca-report/commit/455ee042e6760a06daeb0c228bcf56ac41f8d490).
+[`ee902622acc51e348ce21ad9b9cce13f1922f145`](https://github.com/greenelab/czi-hca-report/commit/ee902622acc51e348ce21ad9b9cce13f1922f145).
