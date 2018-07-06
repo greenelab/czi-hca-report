@@ -2,7 +2,7 @@
 author-meta:
 - Qiwen Hu
 - Casey S. Greene
-date-meta: '2018-07-03'
+date-meta: '2018-07-06'
 keywords:
 - single cell
 - latent space
@@ -21,8 +21,8 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@455ee04](https://github.com/greenelab/czi-hca-report/tree/455ee042e6760a06daeb0c228bcf56ac41f8d490)
-on July 3, 2018.
+from [greenelab/czi-hca-report@ee90262](https://github.com/greenelab/czi-hca-report/tree/ee902622acc51e348ce21ad9b9cce13f1922f145)
+on July 6, 2018.
 </em></small>
 
 ## Authors
@@ -221,6 +221,31 @@ The performance of VAE is generally better than the other approaches for majorit
 ![](images/real.data.knn.png)
 
 Figure 7: Performance comparison VAE, t-SNE, ZIFA, UMAP and PCA based on k-nearest neighbor algorithm.
+
+#### Data augmentation
+
+Data augmentation is a way to reduce overfitting on models by increasing the amount of training data using information only in the current training set. 
+In images, data augmentation can be obtained by arbitrary rotations, zooms, and other irrelevant transformations of images to increase the amount of training data, which allows a deep learning model to capture the differences from the data and reduces the model's propensity to learn noise. 
+The same concept also applies to single-cell transcriptomes. 
+We hypothesized that genomic data augmentation will improve latent feature generalization by separating biological from technical features and increasing the effective sample size during training.
+
+We performed data augmentation based on HCA melanoma dataset. 
+We down sampled the melanoma dataset to test the method stability.
+The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. 
+We expected data augmentation will contribute more for small number of cells rather than large number of cells.
+Salmon (version 0.8.1) [@vrqQcFyx] was used to do the transcript abundance quantification and we resampled the reads by 2x, 5x and 10x times to capture the uncertainty in the data. 
+
+Figure 8 and 9 show the performance of data augmentation under different conditions. 
+K-means and Knn based performance both indicate data augmentation works well for very small numbers of cells (100), but does not appear to help when the number of cells is modest (2000).
+![](images/kmeans.data.augmentation.png)
+
+Figure 8: K-means based performance for data augmentation on HCA melanoma dataset. The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Reads were resampled by 2x, 5x and 10x times to capture the uncertainty in the data.
+
+![](images/knn.data.augmentation.png)
+
+Figure 9: KNN based performance for data augmentation on HCA melanoma dataset. The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Reads were resampled by 2x, 5x and 10x times to capture the uncertainty in the data.
+
+
 
 
 ## Aim 2: Generate a benchmark dataset of harmonized public data to evaluate the extent to which HCA cell types capture rheumatic disease biology.
