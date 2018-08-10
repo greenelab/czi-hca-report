@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Qiwen Hu" />
   <meta name="author" content="Casey S. Greene" />
-  <meta name="dcterms.date" content="2018-07-06" />
+  <meta name="dcterms.date" content="2018-08-10" />
   <meta name="keywords" content="single cell, latent space, variational autoencoder, generative adversarial networls, deep learning" />
   <title>Progress Report: Genome-wide hypothesis generation for single-cell expression via latent spaces of deep neural networks</title>
   <style type="text/css">
@@ -28,7 +28,7 @@
 <header>
 <h1 class="title">Progress Report: Genome-wide hypothesis generation for single-cell expression via latent spaces of deep neural networks</h1>
 </header>
-<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/czi-hca-report/tree/ee902622acc51e348ce21ad9b9cce13f1922f145">greenelab/czi-hca-report@ee90262</a> on July 6, 2018. </em></small></p>
+<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/czi-hca-report/tree/182535226d75fbabf2ad10c8985411a24c31e5fb">greenelab/czi-hca-report@1825352</a> on August 10, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Qiwen Hu</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/None">None</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/huqiwen0313">huqiwen0313</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/qiwen_hu">qiwen_hu</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania </small></p></li>
@@ -76,6 +76,8 @@
 <img src="images/nmi.png" />
 </figure>
 <p>Figure 3: Performance comparison among VAE, t-SNE and PCA under different simulation parameters.</p>
+<h5 id="model-sensitivity">4. Model sensitivity</h5>
+<p>We found VAE model was sensitive to hyperparameter tuning, especially for deeper networks. The performance of 3-layer VAE changed dramatically after parameter tuning. Our results should discourage authors and reviewers from solely relying on empirical performance comparisons to evaluate model performance. The details of these results are available in <span class="citation" data-cites="5CsWRjfp">[<a href="#ref-5CsWRjfp">19</a>]</span>.</p>
 <h4 id="vae-performance-on-real-single-cell-datasets">VAE performance on real single cell datasets</h4>
 <h5 id="real-single-cell-datasets">1. real single cell datasets:</h5>
 <p>To evaluate the performance of VAE and the other dimension reduction approaches, we selected 8 real single cell datasets with true cell type labels.</p>
@@ -117,7 +119,7 @@
 <td>GSE36552</td>
 <td>Illumina HiSeq 2000</td>
 <td>from different embryonic developmental time points</td>
-<td><span class="citation" data-cites="cTBjEwEP">[<a href="#ref-cTBjEwEP">19</a>]</span></td>
+<td><span class="citation" data-cites="cTBjEwEP">[<a href="#ref-cTBjEwEP">20</a>]</span></td>
 </tr>
 <tr class="even">
 <td>goolam</td>
@@ -129,7 +131,7 @@
 <td>E-MTAB-3321</td>
 <td></td>
 <td>from different embryonic developmental time points</td>
-<td><span class="citation" data-cites="aoXSfMEh">[<a href="#ref-aoXSfMEh">20</a>]</span></td>
+<td><span class="citation" data-cites="aoXSfMEh">[<a href="#ref-aoXSfMEh">21</a>]</span></td>
 </tr>
 <tr class="odd">
 <td>pollen</td>
@@ -141,7 +143,7 @@
 <td>SRP041736</td>
 <td>Illumina HiSeq 2000</td>
 <td>from different celllines</td>
-<td><span class="citation" data-cites="dCW9GLBh">[<a href="#ref-dCW9GLBh">21</a>]</span></td>
+<td><span class="citation" data-cites="dCW9GLBh">[<a href="#ref-dCW9GLBh">22</a>]</span></td>
 </tr>
 <tr class="even">
 <td>patel</td>
@@ -153,7 +155,7 @@
 <td>GSE57249</td>
 <td>Illumina HiSeq 2000</td>
 <td>from five primary glioblastomas</td>
-<td><span class="citation" data-cites="CK2iL88z">[<a href="#ref-CK2iL88z">22</a>]</span></td>
+<td><span class="citation" data-cites="CK2iL88z">[<a href="#ref-CK2iL88z">23</a>]</span></td>
 </tr>
 <tr class="odd">
 <td>nestorowa</td>
@@ -165,7 +167,7 @@
 <td>GSE81682</td>
 <td>Illumina HiSeq 2500</td>
 <td>defined by sorting</td>
-<td><span class="citation" data-cites="3P5sOch">[<a href="#ref-3P5sOch">23</a>]</span></td>
+<td><span class="citation" data-cites="3P5sOch">[<a href="#ref-3P5sOch">24</a>]</span></td>
 </tr>
 <tr class="even">
 <td>Petropoulos</td>
@@ -177,7 +179,7 @@
 <td>E-MTAB-3929</td>
 <td>Illumina HiSeq 2000</td>
 <td>defined by developmental stages</td>
-<td><span class="citation" data-cites="ka5Dodis">[<a href="#ref-ka5Dodis">24</a>]</span></td>
+<td><span class="citation" data-cites="ka5Dodis">[<a href="#ref-ka5Dodis">25</a>]</span></td>
 </tr>
 <tr class="odd">
 <td>HCA melanoma data</td>
@@ -201,12 +203,12 @@
 <td>GSE84133</td>
 <td>Illumina HiSeq 2500</td>
 <td>from expression profiles and cell origin</td>
-<td><span class="citation" data-cites="1AXVzqJNj">[<a href="#ref-1AXVzqJNj">25</a>]</span></td>
+<td><span class="citation" data-cites="1AXVzqJNj">[<a href="#ref-1AXVzqJNj">26</a>]</span></td>
 </tr>
 </tbody>
 </table>
 <h5 id="dimensional-projection-of-real-single-cell-data-based-on-differnt-structure-of-vae-vae_depth3-3-hidden-layer-vae_depth2-2-hidden-layer-vae_depth1-1-hidden-layer-t-sne-zifa-umap-and-pca">2. 2-dimensional projection of real single cell data based on differnt structure of VAE: VAE_depth3 (3 hidden layer), VAE_depth2 (2 hidden layer), VAE_depth1 (1 hidden layer), t-SNE, ZIFA, UMAP and PCA</h5>
-<p>We tested the performance of VAE and another 4 methods (t-SNE <span class="citation" data-cites="Mij5zdMT">[<a href="#ref-Mij5zdMT">26</a>]</span>, ZIFA <span class="citation" data-cites="13Q8I0ueY">[<a href="#ref-13Q8I0ueY">13</a>]</span>, UMAP <span class="citation" data-cites="157h5hA34">[<a href="#ref-157h5hA34">27</a>]</span> and PCA <span class="citation" data-cites="1B69QdM07">[<a href="#ref-1B69QdM07">29</a>]</span>) on these real datasets with different number of cells, genes and cell types. Figure 4 shows the 2-D visulization of the real single cell datasets. PCA and ZIFA generally perform better when number of cells is small, but with the increase of number of cells, VAE better differentiates different cell types. Increase of VAE depth does not significantly change the performance for real single cell datasets, but for the simulated data we analyzed above, VAE with higher depth is more resistant to noise and performs better with small number of cells.</p>
+<p>We tested the performance of VAE and another 4 methods (t-SNE <span class="citation" data-cites="Mij5zdMT">[<a href="#ref-Mij5zdMT">27</a>]</span>, ZIFA <span class="citation" data-cites="13Q8I0ueY">[<a href="#ref-13Q8I0ueY">13</a>]</span>, UMAP <span class="citation" data-cites="157h5hA34">[<a href="#ref-157h5hA34">28</a>]</span> and PCA <span class="citation" data-cites="1B69QdM07">[<a href="#ref-1B69QdM07">30</a>]</span>) on these real datasets with different number of cells, genes and cell types. Figure 4 shows the 2-D visulization of the real single cell datasets. PCA and ZIFA generally perform better when number of cells is small, but with the increase of number of cells, VAE better differentiates different cell types. Increase of VAE depth does not significantly change the performance for real single cell datasets, but for the simulated data we analyzed above, VAE with higher depth is more resistant to noise and performs better with small number of cells.</p>
 <figure>
 <img src="images/real.data.vis.png" />
 </figure>
@@ -241,7 +243,7 @@
 <p>Figure 9: KNN based performance for data augmentation on HCA melanoma dataset. The dataset was bootstrapped with 100, 500, 1000 and 2000 cells. Reads were resampled by 2x, 5x and 10x times to capture the uncertainty in the data.</p>
 <h2 id="aim-2-generate-a-benchmark-dataset-of-harmonized-public-data-to-evaluate-the-extent-to-which-hca-cell-types-capture-rheumatic-disease-biology.">Aim 2: Generate a benchmark dataset of harmonized public data to evaluate the extent to which HCA cell types capture rheumatic disease biology.</h2>
 <p>The HCA’s partnership with the Immunological Genome Project (immgenH) will provide single-cell gene expression-based immunocyte phenotyping at an unprecedented resolution. A compendium comprised of bulk gene expression data from autoimmune/rheumatic diseases is exceptionally well-suited to evaluating the disease relevance of these immunocyte data. The <em>objective of this aim</em> is to build and share real and simulated benchmark datasets to evaluate the quality of the cell-type signatures. This will allow CZI to evaluate techniques, including VAEs and other methods, for defining cell-type-specific expression signatures from the HCA’s single-cell datasets by measuring their ability to decompose bulk, whole-tissue autoimmune/rheumatic disease data.</p>
-<p>We will generate simulated bulk datasets drawn from HCA-identified cell types by combining their expression profiles at different proportions. We will also build a multi-tissue autoimmune/rheumatic disease compendium from existing public datasets that we have curated (currently more than 12,000 samples). This compendium includes samples from patients with systemic lupus erythematosus (SLE), sarcoidosis, and inflammatory bowel disorders among many other diseases. Such a compendium lets us determine the extent to which HCA-derived cell type signatures capture disease-relevant information in a way that matches previous literature. For instance, we expect to detect higher proportions of activated macrophages in lupus nephritis samples than controls <span class="citation" data-cites="2f2lADmF">[<a href="#ref-2f2lADmF">30</a>]</span>.</p>
+<p>We will generate simulated bulk datasets drawn from HCA-identified cell types by combining their expression profiles at different proportions. We will also build a multi-tissue autoimmune/rheumatic disease compendium from existing public datasets that we have curated (currently more than 12,000 samples). This compendium includes samples from patients with systemic lupus erythematosus (SLE), sarcoidosis, and inflammatory bowel disorders among many other diseases. Such a compendium lets us determine the extent to which HCA-derived cell type signatures capture disease-relevant information in a way that matches previous literature. For instance, we expect to detect higher proportions of activated macrophages in lupus nephritis samples than controls <span class="citation" data-cites="2f2lADmF">[<a href="#ref-2f2lADmF">31</a>]</span>.</p>
 <p>These bulk compendia (simulated and real data) will enable HCA participants (computational-method and molecular-assay developers) to directly compare approaches where we expect their most immediate translational impact: application to existing datasets to explain disease-relevant phenomena via a single-cell perspective.</p>
 <h3 id="results-1">Results</h3>
 <p>TBD.</p>
@@ -262,7 +264,7 @@ Anton Osokin, Anatole Chessel, Rafael E. Carazo Salas, Federico Vaggi<br />
 <em>arXiv</em> (2017-08-15) <a href="https://arxiv.org/abs/1708.04692v2" class="uri">https://arxiv.org/abs/1708.04692v2</a></p>
 </div>
 <div id="ref-1CFhfCyWN">
-<p>4. <strong>ADAGE-Based Integration of Publicly AvailablePseudomonas aeruginosaGene Expression Data with Denoising Autoencoders Illuminates Microbe-Host Interactions</strong><br />
+<p>4. <strong>ADAGE-Based Integration of Publicly Available Pseudomonas aeruginosa Gene Expression Data with Denoising Autoencoders Illuminates Microbe-Host Interactions</strong><br />
 Jie Tan, John H. Hammond, Deborah A. Hogan, Casey S. Greene<br />
 <em>mSystems</em> (2016-01-19) <a href="https://doi.org/10.1128/msystems.00025-15" class="uri">https://doi.org/10.1128/msystems.00025-15</a></p>
 </div>
@@ -336,63 +338,68 @@ Nicolas L Bray, Harold Pimentel, Páll Melsted, Lior Pachter<br />
 Luke Zappia, Belinda Phipson, Alicia Oshlack<br />
 <em>Genome Biology</em> (2017-09-12) <a href="https://doi.org/10.1186/s13059-017-1305-0" class="uri">https://doi.org/10.1186/s13059-017-1305-0</a></p>
 </div>
+<div id="ref-5CsWRjfp">
+<p>19. <strong>Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics</strong><br />
+Qiwen Hu, Casey S Greene<br />
+<em>Cold Spring Harbor Laboratory</em> (2018-08-05) <a href="https://doi.org/10.1101/385534" class="uri">https://doi.org/10.1101/385534</a></p>
+</div>
 <div id="ref-cTBjEwEP">
-<p>19. <strong>Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells</strong><br />
+<p>20. <strong>Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells</strong><br />
 Liying Yan, Mingyu Yang, Hongshan Guo, Lu Yang, Jun Wu, Rong Li, Ping Liu, Ying Lian, Xiaoying Zheng, Jie Yan, … Fuchou Tang<br />
 <em>Nature Structural &amp; Molecular Biology</em> (2013-08-11) <a href="https://doi.org/10.1038/nsmb.2660" class="uri">https://doi.org/10.1038/nsmb.2660</a></p>
 </div>
 <div id="ref-aoXSfMEh">
-<p>20. <strong>Heterogeneity in Oct4 and Sox2 Targets Biases Cell Fate in 4-Cell Mouse Embryos</strong><br />
+<p>21. <strong>Heterogeneity in Oct4 and Sox2 Targets Biases Cell Fate in 4-Cell Mouse Embryos</strong><br />
 Mubeen Goolam, Antonio Scialdone, Sarah J.L. Graham, Iain C. Macaulay, Agnieszka Jedrusik, Anna Hupalowska, Thierry Voet, John C. Marioni, Magdalena Zernicka-Goetz<br />
 <em>Cell</em> (2016-03) <a href="https://doi.org/10.1016/j.cell.2016.01.047" class="uri">https://doi.org/10.1016/j.cell.2016.01.047</a></p>
 </div>
 <div id="ref-dCW9GLBh">
-<p>21. <strong>Low-coverage single-cell mRNA sequencing reveals cellular heterogeneity and activated signaling pathways in developing cerebral cortex</strong><br />
+<p>22. <strong>Low-coverage single-cell mRNA sequencing reveals cellular heterogeneity and activated signaling pathways in developing cerebral cortex</strong><br />
 Alex A Pollen, Tomasz J Nowakowski, Joe Shuga, Xiaohui Wang, Anne A Leyrat, Jan H Lui, Nianzhen Li, Lukasz Szpankowski, Brian Fowler, Peilin Chen, … Jay AA West<br />
 <em>Nature Biotechnology</em> (2014-08-03) <a href="https://doi.org/10.1038/nbt.2967" class="uri">https://doi.org/10.1038/nbt.2967</a></p>
 </div>
 <div id="ref-CK2iL88z">
-<p>22. <strong>Single-cell RNA-seq highlights intratumoral heterogeneity in primary glioblastoma</strong><br />
+<p>23. <strong>Single-cell RNA-seq highlights intratumoral heterogeneity in primary glioblastoma</strong><br />
 A. P. Patel, I. Tirosh, J. J. Trombetta, A. K. Shalek, S. M. Gillespie, H. Wakimoto, D. P. Cahill, B. V. Nahed, W. T. Curry, R. L. Martuza, … B. E. Bernstein<br />
 <em>Science</em> (2014-06-12) <a href="https://doi.org/10.1126/science.1254257" class="uri">https://doi.org/10.1126/science.1254257</a></p>
 </div>
 <div id="ref-3P5sOch">
-<p>23. <strong>A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation</strong><br />
+<p>24. <strong>A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation</strong><br />
 S. Nestorowa, F. K. Hamey, B. Pijuan Sala, E. Diamanti, M. Shepherd, E. Laurenti, N. K. Wilson, D. G. Kent, B. Gottgens<br />
 <em>Blood</em> (2016-06-30) <a href="https://doi.org/10.1182/blood-2016-05-716480" class="uri">https://doi.org/10.1182/blood-2016-05-716480</a></p>
 </div>
 <div id="ref-ka5Dodis">
-<p>24. <strong>Single-Cell RNA-Seq Reveals Lineage and X Chromosome Dynamics in Human Preimplantation Embryos</strong><br />
+<p>25. <strong>Single-Cell RNA-Seq Reveals Lineage and X Chromosome Dynamics in Human Preimplantation Embryos</strong><br />
 Sophie Petropoulos, Daniel Edsgärd, Björn Reinius, Qiaolin Deng, Sarita Pauliina Panula, Simone Codeluppi, Alvaro Plaza Reyes, Sten Linnarsson, Rickard Sandberg, Fredrik Lanner<br />
 <em>Cell</em> (2016-09) <a href="https://doi.org/10.1016/j.cell.2016.08.009" class="uri">https://doi.org/10.1016/j.cell.2016.08.009</a></p>
 </div>
 <div id="ref-1AXVzqJNj">
-<p>25. <strong>A Single-Cell Transcriptome Atlas of the Human Pancreas</strong><br />
+<p>26. <strong>A Single-Cell Transcriptome Atlas of the Human Pancreas</strong><br />
 Mauro J. Muraro, Gitanjali Dharmadhikari, Dominic Grün, Nathalie Groen, Tim Dielen, Erik Jansen, Leon van Gurp, Marten A. Engelse, Francoise Carlotti, Eelco J.P. de Koning, Alexander van Oudenaarden<br />
 <em>Cell Systems</em> (2016-10) <a href="https://doi.org/10.1016/j.cels.2016.09.002" class="uri">https://doi.org/10.1016/j.cels.2016.09.002</a></p>
 </div>
 <div id="ref-Mij5zdMT">
-<p>26. <strong>Exploring nonlinear feature space dimension reduction and data representation in breast CADx with Laplacian eigenmaps and t-SNE</strong><br />
+<p>27. <strong>Exploring nonlinear feature space dimension reduction and data representation in breast CADx with Laplacian eigenmaps and t-SNE</strong><br />
 Andrew R. Jamieson, Maryellen L. Giger, Karen Drukker, Hui Li, Yading Yuan, Neha Bhooshan<br />
 <em>Medical Physics</em> (2009-12-22) <a href="https://doi.org/10.1118/1.3267037" class="uri">https://doi.org/10.1118/1.3267037</a></p>
 </div>
 <div id="ref-157h5hA34">
-<p>27. <strong>UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</strong><br />
+<p>28. <strong>UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</strong><br />
 Leland McInnes, John Healy<br />
 <em>arXiv</em> (2018-02-09) <a href="https://arxiv.org/abs/1802.03426v1" class="uri">https://arxiv.org/abs/1802.03426v1</a></p>
 </div>
 <div id="ref-OMsYvCFP">
-<p>28. <strong>Evaluation of UMAP as an alternative to t-SNE for single-cell data</strong><br />
+<p>29. <strong>Evaluation of UMAP as an alternative to t-SNE for single-cell data</strong><br />
 Etienne Becht, Charles-Antoine Dutertre, Immanuel W.H. Kwok, Lai Guan Ng, Florent Ginhoux, Evan W Newell<br />
 <em>Cold Spring Harbor Laboratory</em> (2018-04-10) <a href="https://doi.org/10.1101/298430" class="uri">https://doi.org/10.1101/298430</a></p>
 </div>
 <div id="ref-1B69QdM07">
-<p>29. <strong>Principal component analysis</strong><br />
+<p>30. <strong>Principal component analysis</strong><br />
 Hervé Abdi, Lynne J. Williams<br />
 <em>Wiley Interdisciplinary Reviews: Computational Statistics</em> (2010-06-30) <a href="https://doi.org/10.1002/wics.101" class="uri">https://doi.org/10.1002/wics.101</a></p>
 </div>
 <div id="ref-2f2lADmF">
-<p>30. <strong>Cross-Species Transcriptional Network Analysis Defines Shared Inflammatory Responses in Murine and Human Lupus Nephritis</strong><br />
+<p>31. <strong>Cross-Species Transcriptional Network Analysis Defines Shared Inflammatory Responses in Murine and Human Lupus Nephritis</strong><br />
 C. C. Berthier, R. Bethunaickan, T. Gonzalez-Rivera, V. Nair, M. Ramanujam, W. Zhang, E. P. Bottinger, S. Segerer, M. Lindenmeyer, C. D. Cohen, … M. Kretzler<br />
 <em>The Journal of Immunology</em> (2012-06-20) <a href="https://doi.org/10.4049/jimmunol.1103031" class="uri">https://doi.org/10.4049/jimmunol.1103031</a></p>
 </div>
