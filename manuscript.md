@@ -2,7 +2,7 @@
 author-meta:
 - Qiwen Hu
 - Casey S. Greene
-date-meta: '2018-07-06'
+date-meta: '2018-08-10'
 keywords:
 - single cell
 - latent space
@@ -21,8 +21,8 @@ title: 'Progress Report: Genome-wide hypothesis generation for single-cell expre
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/czi-hca-report@ee90262](https://github.com/greenelab/czi-hca-report/tree/ee902622acc51e348ce21ad9b9cce13f1922f145)
-on July 6, 2018.
+from [greenelab/czi-hca-report@1825352](https://github.com/greenelab/czi-hca-report/tree/182535226d75fbabf2ad10c8985411a24c31e5fb)
+on August 10, 2018.
 </em></small>
 
 ## Authors
@@ -163,6 +163,13 @@ NMI is an normalization of the Mutual Information (MI, measures the dependence o
 ![](images/nmi.png)
 
 Figure 3: Performance comparison among VAE, t-SNE and PCA under different simulation parameters.
+
+##### 4. Model sensitivity
+
+We found VAE model was sensitive to hyperparameter tuning, especially for deeper networks.
+The performance of 3-layer VAE changed dramatically after parameter tuning.
+Our results should discourage authors and reviewers from solely relying on empirical performance comparisons to evaluate model performance.
+The details of these results are available in [@5CsWRjfp].
 
 #### VAE performance on real single cell datasets
 
